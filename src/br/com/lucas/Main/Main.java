@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author bianca.149817
+ * @author
  */
 public class Main {
 
@@ -28,9 +28,9 @@ public class Main {
        
         
         
-      String Nome =JOptionPane.showInputDialog("Informe o Nome da disciplina: ");
-      String departamento =JOptionPane.showInputDialog("Informe o departamento: ");
-      char status = JOptionPane.showInputDialog("Informe o status: ").charAt(0);
+      String Nome =JOptionPane.showInputDialog("Informe o nome da disciplina: ");
+      String departamento =JOptionPane.showInputDialog("Informe o seu departamento: ");
+      char status = JOptionPane.showInputDialog("Informe o seu status: ").charAt(0);
       
       Disciplina dis = new Disciplina(Nome, departamento, status);
     
@@ -42,8 +42,10 @@ public class Main {
       int cargaHoraria = Integer.parseInt(JOptionPane.showInputDialog("Informe a carga horaria: ")) ;
       float valorHora = Float.parseFloat(JOptionPane.showInputDialog("Informe o valor da Hora: "));
       
+      
       Professor pro = new Professor(cargaHoraria, valorHora, nomeP, rgP, cpfp, dataNascimento);
        
+     
      String nome = JOptionPane.showInputDialog("Informe o nome do Aluno: ");
      String rg = JOptionPane.showInputDialog("Informe o RG do Aluno: ");
      String cpf= JOptionPane.showInputDialog("Informe o CPF do Aluno:");
@@ -60,7 +62,7 @@ public class Main {
     }
 
     
-        }
+ }
     
     
 

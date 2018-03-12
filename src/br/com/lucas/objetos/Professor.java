@@ -10,7 +10,7 @@ import java.util.Date;
 
 /**
  *
- * @author bianca.149817
+ * @author 
  */
 public class Professor extends Pessoa {
  private  ArrayList disciplina;
